@@ -18,7 +18,7 @@ def get_sales_data():
     Get sales figures input from the user
     """
     while True:
-        data_str = input("Enter your data here: ")  
+        data_str = input("Enter your data here:\n")  
         sales_data = data_str.split(",")
 
         if validate_data(sales_data):
